@@ -1,0 +1,12 @@
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\bin\Debug\net8.0\ProniaModular.Modules.Products.deps.json
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\bin\Debug\net8.0\ProniaModular.Modules.Products.dll
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\bin\Debug\net8.0\ProniaModular.Modules.Products.pdb
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.AssemblyInfo.cs
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.dll
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\refint\ProniaModular.Modules.Products.dll
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ProniaModular.Modules.Products.pdb
+C:\Users\MSI\source\repos\ProniaModular\src\Modules\ProniaModular.Modules.Products\obj\Debug\net8.0\ref\ProniaModular.Modules.Products.dll

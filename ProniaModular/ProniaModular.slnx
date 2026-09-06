@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Modules/">
+    <Project Path="src/Modules/ProniaModular.Modules.Products/ProniaModular.Modules.Products.csproj" />
+  </Folder>
+  <Project Path="ProniaModular.API/ProniaModular.API.csproj" />
+</Solution>
