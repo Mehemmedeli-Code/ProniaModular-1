@@ -1,0 +1,60 @@
+@ProniaModular.API_HostAddress = http://localhost:5245
+
+### Categories - search + sort + paging
+GET {{ProniaModular.API_HostAddress}}/api/categories?search=men&sortBy=productcount&desc=true&page=1&pageSize=10
+Accept: application/json
+
+### Categories - create
+POST {{ProniaModular.API_HostAddress}}/api/categories
+Content-Type: application/json
+
+{
+  "name": "Men"
+}
+
+### Sizes - create
+POST {{ProniaModular.API_HostAddress}}/api/sizes
+Content-Type: application/json
+
+{
+  "name": "XL"
+}
+
+### Products - create
+POST {{ProniaModular.API_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Blue shirt",
+  "price": 49.99,
+  "description": "Cotton shirt",
+  "categoryId": 1
+}
+
+### Products - all combinations at once (search + filter + sort + paging)
+GET {{ProniaModular.API_HostAddress}}/api/products?search=shirt&categoryId=1&minPrice=10&maxPrice=99&sizeId=1&sortBy=price&desc=true&page=1&pageSize=5
+Accept: application/json
+
+### Products - soft delete
+DELETE {{ProniaModular.API_HostAddress}}/api/products/1
+
+### Products - deleted rows are hidden by the global query filter
+GET {{ProniaModular.API_HostAddress}}/api/products
+Accept: application/json
+
+### Products - IgnoreQueryFilters(): deleted rows become visible again
+GET {{ProniaModular.API_HostAddress}}/api/products?includeDeleted=true
+Accept: application/json
+
+### Products - restore
+POST {{ProniaModular.API_HostAddress}}/api/products/1/restore
+
+### Products - permanent delete
+DELETE {{ProniaModular.API_HostAddress}}/api/products/1/hard
+
+### ProductSizes - assign a size to a product
+POST {{ProniaModular.API_HostAddress}}/api/products/1/sizes/1
+
+### ProductSizes - list
+GET {{ProniaModular.API_HostAddress}}/api/products/1/sizes
+Accept: application/json
